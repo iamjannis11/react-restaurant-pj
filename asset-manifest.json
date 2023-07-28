@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-restaurant-pj/static/css/main.3a0a13f3.css",
+    "main.js": "/react-restaurant-pj/static/js/main.01f112e9.js",
+    "static/media/meal.mp4": "/react-restaurant-pj/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/bg.png": "/react-restaurant-pj/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/hero.png": "/react-restaurant-pj/static/media/hero.d724eb984456d9c97470.png",
+    "static/media/chef.png": "/react-restaurant-pj/static/media/chef.02d6c5b61bfdc70303b4.png",
+    "static/media/menu.png": "/react-restaurant-pj/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/knife.png": "/react-restaurant-pj/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/gallery6.jpg": "/react-restaurant-pj/static/media/gallery6.a21f65ed91953686909d.jpg",
+    "static/media/gallery4.jpg": "/react-restaurant-pj/static/media/gallery4.453c4802bc172a0fd726.jpg",
+    "static/media/gallery1.jpg": "/react-restaurant-pj/static/media/gallery1.b56de88e0127b8e56398.jpg",
+    "static/media/gallery5.jpg": "/react-restaurant-pj/static/media/gallery5.c4d0fc0457f71f06ccc2.jpg",
+    "static/media/gallery3.jpg": "/react-restaurant-pj/static/media/gallery3.7d4cbc3c1c8ac33bbe28.jpg",
+    "static/media/gallery2.jpg": "/react-restaurant-pj/static/media/gallery2.43b443ce589aa97b0382.jpg",
+    "static/media/G.png": "/react-restaurant-pj/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/sign.png": "/react-restaurant-pj/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "index.html": "/react-restaurant-pj/index.html",
+    "static/media/spoon.svg": "/react-restaurant-pj/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "main.3a0a13f3.css.map": "/react-restaurant-pj/static/css/main.3a0a13f3.css.map",
+    "main.01f112e9.js.map": "/react-restaurant-pj/static/js/main.01f112e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a0a13f3.css",
+    "static/js/main.01f112e9.js"
+  ]
+}

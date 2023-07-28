@@ -1,0 +1,38 @@
+.drink-items {
+    margin: 2rem 0;
+}
+
+.drink-items-head {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drink-items-name {
+    font-family: var(--font-base);
+    font-size: var(--h4-font);
+    color: var(--gold-color);
+}
+
+.drink-items-line {
+    height: 1px;
+    width: 100px;
+    background-color: white;
+    margin: 0 2rem;
+}
+
+.drink-items-price {
+    font-size: var(--h4-font);
+}
+
+.drink-items-sub p {
+    font-size: var(--p-font);
+    color: gray;
+}
+
+@media screen and (max-width: 450px) {
+    .drink-items-head {
+        margin: 0;
+    }
+}

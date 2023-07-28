@@ -1,0 +1,129 @@
+:root {
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+
+    --logo-font: 3rem;
+    --nav-font: 1.5rem;
+    --btn-font: 1.4rem;
+    --icon-font: 27px;
+
+    --big-font: 4.8rem;
+    --h2-font: 3.5rem;
+    --h3-font: 2.7rem;
+    --h4-font: 1.7rem;
+    --p-font: 1.5rem;
+
+    --hover-color: grey;
+    --gold-color: rgba(220, 202, 135, 1);
+    --btn-color: chocolate;
+}
+
+.flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spoon-svg {
+    width: 45px;
+}
+
+.section--padding {
+    padding: 4rem 6rem;
+}
+
+.app--bg {
+    background: url("./assets/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    color: white;
+    font-family: var(--font-base);
+    font-weight: 800;
+    line-height: 28px;
+    font-size: var(--btn-font);
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover,
+.btn:focus {
+    color: black;
+    background-color: white;
+    animation: btn 1s;
+    box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes btn {
+    0% {
+        box-shadow: 0 0 0 0 var(--gold-color);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    :root {
+        --big-font: 4rem;
+        --h2-font: 3.3rem;
+        --p-font: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    :root {
+        --big-font: 3.4rem;
+        --h2-font: 3rem;
+        --h4-font: 1.5rem;
+        --p-font: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    :root {
+        --big-font: 3rem;
+        --h2-font: 2.5rem;
+        --h3-font: 2rem;
+        --h4-font: 1.3rem;
+        --p-font: 1rem;
+    }
+    
+    .section--padding {
+        padding: 2rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        --big-font: 2.4rem;
+        --logo-font: 2rem;
+        --nav-font: 1rem;
+        --icon-font: 20px;
+        --h2-font: 2rem;
+        --h3-font: 1.5rem;
+        --h4-font: 1rem;
+        --p-font: .8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    :root {
+        --big-font: 1.8rem;
+        --h2-font: 1.5rem;
+        --h3-font: 1.2rem;
+        --h4-font: .7rem;
+        --p-font: .5rem;
+        --btn-font: 1rem;
+    }
+
+    .btn {
+        padding: .1rem .7rem;
+    }
+}

@@ -1,0 +1,105 @@
+.aboutUs-container {
+    position: relative;
+}
+
+.aboutUs-G {
+    position: absolute;
+}
+
+.aboutUs-G img {
+    width: 480px;
+    height: 480px;
+    z-index: 0;
+}
+
+.aboutUs-content {
+    width: 100%;
+    z-index: 1;
+}
+
+.about-Ltext {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.knife-middle {
+    margin: 2rem 4rem;
+}
+
+.knife-middle img {
+    height: 800px;
+}
+
+.history-Rtext {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-Ltext h2,
+.history-Rtext h2 {
+    margin: 1rem 0;
+    font-size: var(--h2-font);
+    color: var(--gold-color);
+    font-family: var(--font-base);
+}
+
+.about-Ltext p {
+    text-align: right;
+}
+
+.about-Ltext p, .history-Rtext p {
+    margin: 2rem 0;
+    font-size: var(--p-font);
+}
+
+@media screen and (max-width: 950px) {
+    .aboutUs-content {
+        flex-direction: column;
+    }
+
+    .knife-middle img {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .aboutUs-G img {
+        width: 380px;
+        height: 380px;
+    }
+    .knife-middle img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutUs-G img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .knife-middle img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .aboutUs-G img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .knife-middle {
+        margin: 0;
+    }
+
+    .knife-middle img {
+        height: 200px;
+    }
+}
